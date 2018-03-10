@@ -1,0 +1,6 @@
+这个项目添加的jar包
+commons-beanutils-1.8.3.jar
+commons-dbutils-1.4.jar
+commons-logging-1.1.1.jar
+mysql-connector-java-5.1.45-bin.jar
+servlet-api.jar
