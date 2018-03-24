@@ -34,8 +34,9 @@ public class LoginServlet extends HttpServlet {
             if(u!=null){
                 request.getSession().setAttribute("u", user);//如果登录成功，就把user对象放到session对象 中
                 request.getRequestDispatcher("/main.jsp").forward(request, response);
-            }else{//登录失败跳回登陆页面
 
+            }else{//登录失败跳回登陆页面
+                request.setAttribute("msg", "用户名或密码不正确！");
                 request.getRequestDispatcher("/login.jsp").forward(request, response);
             }
         } catch (Exception e) {

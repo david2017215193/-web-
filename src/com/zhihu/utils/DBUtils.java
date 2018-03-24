@@ -1,4 +1,4 @@
-package com.zhihu.utils;
+/*package com.zhihu.utils;
 
 import java.sql.*;
 import java.util.ResourceBundle;
@@ -46,4 +46,4 @@ public class DBUtils {
             }   }
         }
     }
-}
+}*/
